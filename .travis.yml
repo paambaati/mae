@@ -13,7 +13,7 @@ jobs:
   include:
     - stage: test
       script: python -m unittest discover -s tests
-    - stage: build
+    - stage: publish
       script: python setup.py upload
 deploy:
   provider: pypi
