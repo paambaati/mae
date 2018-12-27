@@ -2,6 +2,10 @@
 
 `mae` follows [Semantic Versioning](http://semver.org/).
 
+## [1.0.4] - 2018-12-27
+### Added
+- Included documentation about Mesos/Marathon task labels.
+
 ## [1.0.3] - 2018-12-27
 ### Changed
 - Updated Pydoc.
@@ -18,4 +22,4 @@
 
 ## [1.0.0] - 2018-12-27
 ### Added
-- Intial release.
+- Initial release.
