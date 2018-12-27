@@ -6,7 +6,7 @@ See [Deployment Strategy](#deployment-strategy) to learn how to set up `mae` on 
 
 ## Requirements
 
-`mae` requires Python (>= 2.7).
+`mae` requires Python (>= 2.7), and supports Python 3.
 
 ## Installation
 
@@ -25,6 +25,16 @@ positional arguments:
   slave_address  Mesos slave address
   slave_port     Mesos slave port
 ```
+
+## Task Labels
+
+Once `mae` is up and running, it will start collecting metrics from all apps that have the `prometheus.metrics.enabled` label. You can also customize how the metrics are collected  —
+
+| [Task Label](https://docs.mesosphere.com/1.7/usage/tutorials/task-labels/)                           	| Description                                                                                                              	| Required? 	| Default    	|
+|---------------------------------	|--------------------------------------------------------------------------------------------------------------------------	|-----------	|------------	|
+| `prometheus.metrics.enabled`    	| Enables metrics collection. If the label isn't found, the app's metrics are not collected.                               	| Yes       	|            	|
+| `prometheus.metrics.port_index` 	| The port index where your app is exposing its Prometheus metrics. This is useful for Mesos apps that use multiple ports. 	| No        	| `0`        	|
+| `prometheus.metrics.endpoint`   	| The endpoint where your app is exposing its metrics.                                                                     	| No        	| `/metrics` 	|
 
 ## Deployment Strategy
 
