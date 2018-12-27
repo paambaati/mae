@@ -16,4 +16,3 @@ deploy:
   on:
     python: '2.7'
     tags: true
-    branch: master
