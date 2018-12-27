@@ -8,12 +8,6 @@ python:
 install:
 - pip install -r requirements.txt
 script: python -m unittest discover -s tests
-jobs:
-  include:
-    - stage: test
-      script: python -m unittest discover -s tests
-    - stage: publish
-      script: python setup.py upload
 deploy:
   provider: pypi
   user: paambaati
