@@ -7,7 +7,7 @@ from os import environ
 from six.moves.BaseHTTPServer import HTTPServer
 from sys import stdout
 
-from mae.mae import MetricsServer
+from mae import MetricsServer
 
 logging.basicConfig(stream=stdout, level=environ.get('LOG_LEVEL', logging.INFO))
 
@@ -17,6 +17,9 @@ APP_PORT = 8888
 
 
 def main():
+    """
+    Runs a Prometheus exporter as a HTTP server.
+    """
     try:
         parser = argparse.ArgumentParser()
         parser.add_argument('app_port', help='Port on which this exporter will run on', default=APP_PORT, type=int)
