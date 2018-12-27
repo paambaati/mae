@@ -1,4 +1,4 @@
-# 🔥 mae
+# 🔥 mae ![](https://travis-ci.org/paambaati/mae.svg?branch=master)
 `mae` collects Prometheus metrics from your Mesos apps.
 
 ## Requirements
