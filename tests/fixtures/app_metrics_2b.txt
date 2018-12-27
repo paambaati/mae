@@ -1,0 +1,12 @@
+# HELP sdfx_agg_success Aggregate successful crawls
+# TYPE sdfx_agg_success counter
+sdfx_agg_success 338144
+# HELP sdfx_agg_error Aggregate crawl errors
+# TYPE sdfx_agg_error counter
+sdfx_agg_error 90
+# HELP sdfx_agg_proxy_timeout Aggregate proxy timeouts
+# TYPE sdfx_agg_proxy_timeout counter
+sdfx_agg_proxy_timeout 151490
+# HELP sdfx_agg_launch_failure Aggregate Chromium launch failures
+# TYPE sdfx_agg_launch_failure counter
+sdfx_agg_launch_failure 173

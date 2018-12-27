@@ -1,0 +1,2735 @@
+{
+    "get_tasks": {
+        "completed_tasks": [
+            {
+                "task_id": {
+                    "value": "production.shadowfax.a45f058d-0082-11e9-a0d5-12164c467f0e"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.a45f058d-0082-11e9-a0d5-12164c467f0e"
+                        },
+                        "uuid": "h17iLO6dTROr2Xo7hm9JNg==",
+                        "task_id": {
+                            "value": "production.shadowfax.a45f058d-0082-11e9-a0d5-12164c467f0e"
+                        },
+                        "healthy": false,
+                        "timestamp": 1545092199.36842,
+                        "container_status": {
+                            "executor_pid": 31806,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.a45f058d-0082-11e9-a0d5-12164c467f0e"
+                        },
+                        "uuid": "VyuusPa2QdO4zIdAvve/Yg==",
+                        "task_id": {
+                            "value": "production.shadowfax.a45f058d-0082-11e9-a0d5-12164c467f0e"
+                        },
+                        "healthy": false,
+                        "timestamp": 1545092199.46838,
+                        "container_status": {
+                            "executor_pid": 31806,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "VyuusPa2QdO4zIdAvve/Yg==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,vasanth,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31393,
+                                    "end": 31394
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31393
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31394
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.shadowfax.c1de0a50-fc1f-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.c1de0a50-fc1f-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "g1aoZLa7R5SR1MYujDO2Cg==",
+                        "task_id": {
+                            "value": "production.shadowfax.c1de0a50-fc1f-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544407471.55227,
+                        "container_status": {
+                            "executor_pid": 6460,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.c1de0a50-fc1f-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "m78sFYChQhWupBoI7bxjqw==",
+                        "task_id": {
+                            "value": "production.shadowfax.c1de0a50-fc1f-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1544519980.51465,
+                        "container_status": {
+                            "executor_pid": 6460,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "m78sFYChQhWupBoI7bxjqw==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,vasanth,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31924,
+                                    "end": 31925
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31924
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31925
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.shadowfax.6d31b2f4-dd91-11e8-9507-122363c91830"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.6d31b2f4-dd91-11e8-9507-122363c91830"
+                        },
+                        "uuid": "Jofqon1aTTSjpXKn+yYSWQ==",
+                        "task_id": {
+                            "value": "production.shadowfax.6d31b2f4-dd91-11e8-9507-122363c91830"
+                        },
+                        "healthy": true,
+                        "timestamp": 1541047745.9002,
+                        "container_status": {
+                            "executor_pid": 11521,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.6d31b2f4-dd91-11e8-9507-122363c91830"
+                        },
+                        "uuid": "3HIjRQSFSwGg7sk7wSH+Qg==",
+                        "task_id": {
+                            "value": "production.shadowfax.6d31b2f4-dd91-11e8-9507-122363c91830"
+                        },
+                        "timestamp": 1541053675.91372,
+                        "container_status": {
+                            "executor_pid": 11521,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "3HIjRQSFSwGg7sk7wSH+Qg==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,vasanth,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "leastconn",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#sites-tools",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31569,
+                                    "end": 31570
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31569
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31570
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.shadowfax.f426b720-f20b-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.f426b720-f20b-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "7w0OR0WUQYOIIe+0vnEWRA==",
+                        "task_id": {
+                            "value": "production.shadowfax.f426b720-f20b-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1543299394.25944,
+                        "container_status": {
+                            "executor_pid": 30162,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.f426b720-f20b-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "a3BSxx2oQaSwh9scBtr/rQ==",
+                        "task_id": {
+                            "value": "production.shadowfax.f426b720-f20b-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1543301645.61888,
+                        "container_status": {
+                            "executor_pid": 30162,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "a3BSxx2oQaSwh9scBtr/rQ==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,vasanth,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31192,
+                                    "end": 31193
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31192
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31193
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.shadowfax.458d8063-dd9f-11e8-9507-122363c91830"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.458d8063-dd9f-11e8-9507-122363c91830"
+                        },
+                        "uuid": "yEd2u2J3TqWZB3vQogKLMA==",
+                        "task_id": {
+                            "value": "production.shadowfax.458d8063-dd9f-11e8-9507-122363c91830"
+                        },
+                        "healthy": false,
+                        "timestamp": 1541570493.92692,
+                        "container_status": {
+                            "executor_pid": 19116,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.458d8063-dd9f-11e8-9507-122363c91830"
+                        },
+                        "uuid": "BLWDpXBJSPiU1cK5DTey3w==",
+                        "task_id": {
+                            "value": "production.shadowfax.458d8063-dd9f-11e8-9507-122363c91830"
+                        },
+                        "healthy": false,
+                        "timestamp": 1541570516.65712,
+                        "container_status": {
+                            "executor_pid": 19116,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "BLWDpXBJSPiU1cK5DTey3w==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,vasanth,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#sites-tools",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31577,
+                                    "end": 31578
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31577
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31578
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.shadowfax.e5fb02ac-fd25-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.e5fb02ac-fd25-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "GmG8xRbkSpOVz3xeyQUXWw==",
+                        "task_id": {
+                            "value": "production.shadowfax.e5fb02ac-fd25-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": false,
+                        "timestamp": 1544738137.7127,
+                        "container_status": {
+                            "executor_pid": 3164,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.e5fb02ac-fd25-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "Z2Bfkh/xRuiPW50G9nMw/g==",
+                        "task_id": {
+                            "value": "production.shadowfax.e5fb02ac-fd25-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": false,
+                        "timestamp": 1544738137.81353,
+                        "container_status": {
+                            "executor_pid": 3164,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "Z2Bfkh/xRuiPW50G9nMw/g==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,vasanth,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31700,
+                                    "end": 31701
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31700
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31701
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.shadowfax.1a371b15-fadf-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.1a371b15-fadf-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "QvDlXnslTY27RbfAUDmGhA==",
+                        "task_id": {
+                            "value": "production.shadowfax.1a371b15-fadf-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": false,
+                        "timestamp": 1544407392.08187,
+                        "container_status": {
+                            "executor_pid": 14403,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.1a371b15-fadf-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "g9/tOHmPSbmbsjJmriymjA==",
+                        "task_id": {
+                            "value": "production.shadowfax.1a371b15-fadf-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": false,
+                        "timestamp": 1544407392.18394,
+                        "container_status": {
+                            "executor_pid": 14403,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "g9/tOHmPSbmbsjJmriymjA==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,vasanth,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31323,
+                                    "end": 31324
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31323
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31324
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.shadowfax.2e513ae8-f61d-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.2e513ae8-f61d-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "bfKqsDxiRaSzLG2w1SKkpg==",
+                        "task_id": {
+                            "value": "production.shadowfax.2e513ae8-f61d-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": false,
+                        "timestamp": 1544269675.79447,
+                        "container_status": {
+                            "executor_pid": 8471,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.2e513ae8-f61d-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "rUrMkXeDSdGkUAYxZnR58w==",
+                        "task_id": {
+                            "value": "production.shadowfax.2e513ae8-f61d-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": false,
+                        "timestamp": 1544269675.89595,
+                        "container_status": {
+                            "executor_pid": 8471,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "rUrMkXeDSdGkUAYxZnR58w==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,vasanth,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31994,
+                                    "end": 31995
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31994
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31995
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.shadowfax.a46729d1-e252-11e8-96f1-12164c467f0e"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.a46729d1-e252-11e8-96f1-12164c467f0e"
+                        },
+                        "uuid": "emJUEVa7TWSVKNgcqHJqmQ==",
+                        "task_id": {
+                            "value": "production.shadowfax.a46729d1-e252-11e8-96f1-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1541570626.88316,
+                        "container_status": {
+                            "executor_pid": 14053,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.a46729d1-e252-11e8-96f1-12164c467f0e"
+                        },
+                        "uuid": "IVliV7cuQxGwnpeIgsZpbQ==",
+                        "task_id": {
+                            "value": "production.shadowfax.a46729d1-e252-11e8-96f1-12164c467f0e"
+                        },
+                        "timestamp": 1541570755.91177,
+                        "container_status": {
+                            "executor_pid": 14053,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "IVliV7cuQxGwnpeIgsZpbQ==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,vasanth,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#sites-tools",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31087,
+                                    "end": 31088
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31087
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31088
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.shadowfax.337d90b5-e253-11e8-96f1-12164c467f0e"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.337d90b5-e253-11e8-96f1-12164c467f0e"
+                        },
+                        "uuid": "7JTDcGIYQlGQfGKJ23Wejg==",
+                        "task_id": {
+                            "value": "production.shadowfax.337d90b5-e253-11e8-96f1-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1541570776.11302,
+                        "container_status": {
+                            "executor_pid": 15877,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.337d90b5-e253-11e8-96f1-12164c467f0e"
+                        },
+                        "uuid": "yt4wLCFNTayzP92DxeYItg==",
+                        "task_id": {
+                            "value": "production.shadowfax.337d90b5-e253-11e8-96f1-12164c467f0e"
+                        },
+                        "timestamp": 1543200588.73023,
+                        "container_status": {
+                            "executor_pid": 15877,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "yt4wLCFNTayzP92DxeYItg==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,vasanth,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31916,
+                                    "end": 31917
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31916
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31917
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.shadowfax.3b384819-f211-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.3b384819-f211-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "yDxgq2wzTouLWt2xHP8LJQ==",
+                        "task_id": {
+                            "value": "production.shadowfax.3b384819-f211-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": false,
+                        "timestamp": 1543746582.5045,
+                        "container_status": {
+                            "executor_pid": 22371,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.3b384819-f211-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "JrmOCN7UQei+sEDe1ylBnQ==",
+                        "task_id": {
+                            "value": "production.shadowfax.3b384819-f211-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": false,
+                        "timestamp": 1543746582.60617,
+                        "container_status": {
+                            "executor_pid": 22371,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "JrmOCN7UQei+sEDe1ylBnQ==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,vasanth,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31351,
+                                    "end": 31352
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31351
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31352
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.shadowfax.f09e4c86-f125-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.f09e4c86-f125-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "ZY6zirj/RR2QYxeJ3m97Cg==",
+                        "task_id": {
+                            "value": "production.shadowfax.f09e4c86-f125-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1543200614.15845,
+                        "container_status": {
+                            "executor_pid": 32644,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.f09e4c86-f125-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "9lL6JsFWRxyWJfqXVzuAMQ==",
+                        "task_id": {
+                            "value": "production.shadowfax.f09e4c86-f125-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1543208881.2355,
+                        "container_status": {
+                            "executor_pid": 32644,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "9lL6JsFWRxyWJfqXVzuAMQ==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,vasanth,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31636,
+                                    "end": 31637
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31636
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31637
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.shadowfax.415b6a23-f139-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.415b6a23-f139-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "i/RyOEzvRSiU6ISbx6z6Rg==",
+                        "task_id": {
+                            "value": "production.shadowfax.415b6a23-f139-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1543208899.92485,
+                        "container_status": {
+                            "executor_pid": 8532,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.415b6a23-f139-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "RinTsRoRTZ600v7ZlvWUAA==",
+                        "task_id": {
+                            "value": "production.shadowfax.415b6a23-f139-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1543299378.91881,
+                        "container_status": {
+                            "executor_pid": 8532,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "RinTsRoRTZ600v7ZlvWUAA==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,vasanth,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31864,
+                                    "end": 31865
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31864
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31865
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "launched_tasks": [
+            {
+                "task_id": {
+                    "value": "production.shadowfax.821ffca9-0436-11e9-a0d5-12164c467f0e"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.821ffca9-0436-11e9-a0d5-12164c467f0e"
+                        },
+                        "uuid": "KlvEJNjmSs28LaFBqi+gqg==",
+                        "task_id": {
+                            "value": "production.shadowfax.821ffca9-0436-11e9-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1545296852.30765,
+                        "container_status": {
+                            "executor_pid": 1222,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                        }
+                    }
+                ],
+                "status_update_state": "TASK_RUNNING",
+                "status_update_uuid": "KlvEJNjmSs28LaFBqi+gqg==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "true",
+                            "key": "prometheus.metrics.enabled"
+                        },
+                        {
+                            "value": "gp,vasanth,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_RUNNING",
+                "agent_id": {
+                    "value": "eb4de526-031e-4b4c-b83b-d88269198a84-S506"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31521,
+                                    "end": 31522
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31521
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31522
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.shadowfax.36dec447-0567-11e9-a0d5-12164c467f0e"
+                },
+                "name": "production.shadowfax",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.shadowfax.36dec447-0567-11e9-a0d5-12164c467f0e"
+                        },
+                        "uuid": "nPcAC+mhSnKooebv+6SnfA==",
+                        "task_id": {
+                            "value": "production.shadowfax.36dec447-0567-11e9-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1545427722.56431,
+                        "container_status": {
+                            "executor_pid": 7277,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S461"
+                        }
+                    }
+                ],
+                "status_update_state": "TASK_RUNNING",
+                "status_update_uuid": "nPcAC+mhSnKooebv+6SnfA==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "true",
+                            "key": "prometheus.metrics.enabled"
+                        },
+                        {
+                            "value": "1",
+                            "key": "prometheus.metrics.port_index"
+                        },
+                        {
+                            "value": "/prometheus",
+                            "key": "prometheus.metrics.endpoint"
+                        },
+                        {
+                            "value": "gp",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "2001",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_RUNNING",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S461"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 14000.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31064,
+                                    "end": 31065
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.shadowfax",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31064
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31065
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "type": "GET_TASKS"
+}

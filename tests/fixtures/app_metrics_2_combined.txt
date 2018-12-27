@@ -1,0 +1,39 @@
+# HELP fsk_agg_input Aggregate HTMLs read from Kafka
+# TYPE fsk_agg_input counter
+fsk_agg_input 1334981
+# HELP fsk_agg_deserialized Aggregate HTMLPage objects deserialized from Kafka message
+# TYPE fsk_agg_deserialized counter
+fsk_agg_deserialized 1334981
+# HELP fsk_agg_parsed Aggregate parses completed
+# TYPE fsk_agg_parsed counter
+fsk_agg_parsed 1328195
+# HELP fsk_agg_parse_errors Aggregate parse errors
+# TYPE fsk_agg_parse_errors counter
+fsk_agg_parse_errors 0
+# HELP fsk_agg_output Aggregate messages written to Kafka
+# TYPE fsk_agg_output counter
+fsk_agg_output 1328195
+# HELP fsk_agg_write_failures Aggregate Kafka write failures
+# TYPE fsk_agg_write_failures counter
+fsk_agg_write_failures 0
+# HELP fsk_agg_thrift_deserialize_time Total time spent in deserializing incoming HTML Thrift object
+# TYPE fsk_agg_thrift_deserialize_time counter
+fsk_agg_thrift_deserialize_time 1844246.3375630192
+# HELP fsk_agg_parse_time Total time spent in running Firestar parser on HTML
+# TYPE fsk_agg_parse_time counter
+fsk_agg_parse_time 166328457.9603212
+# HELP fsk_agg_kafka_write_time Total time spent in writing parser output to Kafka
+# TYPE fsk_agg_kafka_write_time counter
+fsk_agg_kafka_write_time 1312525037.8750088
+# HELP sdfx_agg_success Aggregate successful crawls
+# TYPE sdfx_agg_success counter
+sdfx_agg_success 338144
+# HELP sdfx_agg_error Aggregate crawl errors
+# TYPE sdfx_agg_error counter
+sdfx_agg_error 90
+# HELP sdfx_agg_proxy_timeout Aggregate proxy timeouts
+# TYPE sdfx_agg_proxy_timeout counter
+sdfx_agg_proxy_timeout 151490
+# HELP sdfx_agg_launch_failure Aggregate Chromium launch failures
+# TYPE sdfx_agg_launch_failure counter
+sdfx_agg_launch_failure 173

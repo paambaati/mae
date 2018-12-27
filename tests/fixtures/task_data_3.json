@@ -1,0 +1,3528 @@
+{
+    "get_tasks": {
+        "completed_tasks": [
+            {
+                "task_id": {
+                    "value": "production.refresh-alerts.6f57a94e-fe98-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.refresh-alerts",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.refresh-alerts.6f57a94e-fe98-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "FMftWBoKQGuwgKFPVH0s7w==",
+                        "task_id": {
+                            "value": "production.refresh-alerts.6f57a94e-fe98-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544679144.45485,
+                        "container_status": {
+                            "executor_pid": 4724,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.refresh-alerts.6f57a94e-fe98-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "awv2WuPvTNeFik1O/oeAHA==",
+                        "task_id": {
+                            "value": "production.refresh-alerts.6f57a94e-fe98-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1544982152.14279,
+                        "container_status": {
+                            "executor_pid": 4724,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_FAILED",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        },
+                        "message": "Command exited with status 1"
+                    }
+                ],
+                "status_update_state": "TASK_FAILED",
+                "status_update_uuid": "awv2WuPvTNeFik1O/oeAHA==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "#refresh_eta_debug",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "vasanth",
+                            "key": "alerts.slack.owners"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_FAILED",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 0.1
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 256.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2048.0
+                        },
+                        "role": "*",
+                        "name": "disk"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31683,
+                                    "end": 31683
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.refresh-alerts",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31683
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.firestar-kafka-service.aa96e038-f8ba-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-kafka-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.aa96e038-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "bnbJa4MbR9yNitcZT4lTcg==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.aa96e038-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544034199.74238,
+                        "container_status": {
+                            "executor_pid": 29878,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.aa96e038-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "av5rCntgRTChi42qLNUpTA==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.aa96e038-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1544676298.73664,
+                        "container_status": {
+                            "executor_pid": 29878,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "av5rCntgRTChi42qLNUpTA==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "6020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31647,
+                                    "end": 31647
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-kafka-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31647
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.axon.parse-processor.db736f04-f8be-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.axon.parse-processor",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.axon.parse-processor.db736f04-f8be-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "e8f3BMCeRUWALFmAUaNR0Q==",
+                        "task_id": {
+                            "value": "production.axon.parse-processor.db736f04-f8be-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544035939.7369,
+                        "container_status": {
+                            "executor_pid": 13516,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.axon.parse-processor.db736f04-f8be-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "KpYAX2GtT86pV8tM4gl4IA==",
+                        "task_id": {
+                            "value": "production.axon.parse-processor.db736f04-f8be-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1544177473.81226,
+                        "container_status": {
+                            "executor_pid": 13516,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "KpYAX2GtT86pV8tM4gl4IA==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "http",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "  option httpchk GET {healthCheckPath} HTTP/1.1\\r\\nHost:\\ parse-processor.prod.indix.tv\n  timeout check {healthCheckTimeoutSeconds}s\n",
+                            "key": "HAPROXY_0_BACKEND_HTTP_HEALTHCHECK_OPTIONS"
+                        },
+                        {
+                            "value": "roundrobin",
+                            "key": "HAPROXY_0_BALANCE"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.1",
+                            "key": "alerts.min-instances.critical.threshold"
+                        },
+                        {
+                            "value": "parse-processor.prod.indix.tv",
+                            "key": "HAPROXY_0_VHOST"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2048.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31782,
+                                    "end": 31782
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.axon.parse-processor",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31782
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.autobot.db4f54ad-fa10-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.autobot",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.autobot.db4f54ad-fa10-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "OtVkRDC+QjS5gx7sLgejZw==",
+                        "task_id": {
+                            "value": "production.autobot.db4f54ad-fa10-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544181109.25328,
+                        "container_status": {
+                            "executor_pid": 418,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.autobot.db4f54ad-fa10-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "8Do79CycRlW/m/XWJcmOMw==",
+                        "task_id": {
+                            "value": "production.autobot.db4f54ad-fa10-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1544216516.73692,
+                        "container_status": {
+                            "executor_pid": 418,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_FAILED",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        },
+                        "message": "Command exited with status 1"
+                    }
+                ],
+                "status_update_state": "TASK_FAILED",
+                "status_update_uuid": "8Do79CycRlW/m/XWJcmOMw==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "#al-monitoring-bots",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "vasanth",
+                            "key": "alerts.slack.owners"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_FAILED",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "disk"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31857,
+                                    "end": 31857
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.autobot",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31857
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.firestar-kafka-service.db739615-f8be-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-kafka-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.db739615-f8be-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "3tH0NYsBTvmH4s64dUax9A==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.db739615-f8be-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544035939.75862,
+                        "container_status": {
+                            "executor_pid": 13514,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.db739615-f8be-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "tacHBCCgShu8drzPBe56zg==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.db739615-f8be-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1544676267.96978,
+                        "container_status": {
+                            "executor_pid": 13514,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "tacHBCCgShu8drzPBe56zg==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "6020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31178,
+                                    "end": 31178
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-kafka-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31178
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.firestar-kafka-service.75d63564-f8bd-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-kafka-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.75d63564-f8bd-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "4w3CoLkdSYS+Lxc5Geg9Og==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.75d63564-f8bd-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544035339.6104,
+                        "container_status": {
+                            "executor_pid": 8728,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.75d63564-f8bd-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "QnAUEvihQG6TKoSuuY2UnA==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.75d63564-f8bd-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1544676283.33379,
+                        "container_status": {
+                            "executor_pid": 8728,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "QnAUEvihQG6TKoSuuY2UnA==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "6020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31370,
+                                    "end": 31370
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-kafka-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31370
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.autobot.413dee15-fbb5-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.autobot",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.autobot.413dee15-fbb5-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "Jn2QtepCS5CVXPXYMRmGcQ==",
+                        "task_id": {
+                            "value": "production.autobot.413dee15-fbb5-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544361668.88934,
+                        "container_status": {
+                            "executor_pid": 20272,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.autobot.413dee15-fbb5-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "FgonhTqORdSYYWFBb6nAbQ==",
+                        "task_id": {
+                            "value": "production.autobot.413dee15-fbb5-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1544398144.71512,
+                        "container_status": {
+                            "executor_pid": 20272,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_FAILED",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        },
+                        "message": "Command exited with status 1"
+                    }
+                ],
+                "status_update_state": "TASK_FAILED",
+                "status_update_uuid": "FgonhTqORdSYYWFBb6nAbQ==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "#al-monitoring-bots",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "vasanth",
+                            "key": "alerts.slack.owners"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_FAILED",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "disk"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31308,
+                                    "end": 31308
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.autobot",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31308
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.firestar-kafka-service.aa92735e-f8ba-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-kafka-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.aa92735e-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "Kfd2JL9xRLqrW0GKF8MCHw==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.aa92735e-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544034199.84343,
+                        "container_status": {
+                            "executor_pid": 29886,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.aa92735e-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "IB+GiVqNSsyivdywQurxKQ==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.aa92735e-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1544676267.96578,
+                        "container_status": {
+                            "executor_pid": 29886,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "IB+GiVqNSsyivdywQurxKQ==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "6020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31919,
+                                    "end": 31919
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-kafka-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31919
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.firestar-kafka-service.40a2c8f3-fc3b-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-kafka-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.40a2c8f3-fc3b-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "SQYUVaCeS82KqiVZFh8RqQ==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.40a2c8f3-fc3b-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544419220.45529,
+                        "container_status": {
+                            "executor_pid": 25082,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.40a2c8f3-fc3b-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "x/yWsFbKTGOMyMqpXN25uQ==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.40a2c8f3-fc3b-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1544676315.76896,
+                        "container_status": {
+                            "executor_pid": 25082,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "x/yWsFbKTGOMyMqpXN25uQ==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "6020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31992,
+                                    "end": 31992
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-kafka-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31992
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.firestar-kafka-service.aa961ce4-f8ba-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-kafka-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.aa961ce4-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "2/H/YqmTRQ6ySa9SmXnH1A==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.aa961ce4-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544034199.74287,
+                        "container_status": {
+                            "executor_pid": 29883,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.aa961ce4-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "DztS9LGSTRyZHfxVUOe1Fg==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.aa961ce4-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1544676330.81515,
+                        "container_status": {
+                            "executor_pid": 29883,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "DztS9LGSTRyZHfxVUOe1Fg==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "6020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31494,
+                                    "end": 31494
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-kafka-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31494
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.firestar-kafka-service.aa969216-f8ba-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-kafka-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.aa969216-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "4fPsS4KoTUe5EO5Lvg9bfg==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.aa969216-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544034199.74287,
+                        "container_status": {
+                            "executor_pid": 29882,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.aa969216-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "qnxceUQeTcCKBXMi9DKL6A==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.aa969216-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1544676343.87924,
+                        "container_status": {
+                            "executor_pid": 29882,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_KILLED",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        },
+                        "message": "Command terminated with signal Terminated"
+                    }
+                ],
+                "status_update_state": "TASK_KILLED",
+                "status_update_uuid": "qnxceUQeTcCKBXMi9DKL6A==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "6020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_KILLED",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31689,
+                                    "end": 31689
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-kafka-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31689
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "staging.refresh-alerts.a2df1117-fe95-11e8-a0d5-12164c467f0e"
+                },
+                "name": "staging.refresh-alerts",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "staging.refresh-alerts.a2df1117-fe95-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "GXo/TRmqT0OT7x/4Z8Fc/g==",
+                        "task_id": {
+                            "value": "staging.refresh-alerts.a2df1117-fe95-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544677942.23681,
+                        "container_status": {
+                            "executor_pid": 15496,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    },
+                    {
+                        "executor_id": {
+                            "value": "staging.refresh-alerts.a2df1117-fe95-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "6U+R+6HTQPCSTxyXagogzw==",
+                        "task_id": {
+                            "value": "staging.refresh-alerts.a2df1117-fe95-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1544812340.4232,
+                        "container_status": {
+                            "executor_pid": 15496,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_FAILED",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        },
+                        "message": "Command exited with status 139"
+                    }
+                ],
+                "status_update_state": "TASK_FAILED",
+                "status_update_uuid": "6U+R+6HTQPCSTxyXagogzw==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "false",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "#refresh_eta_debug",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "vasanth",
+                            "key": "alerts.slack.owners"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_FAILED",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 0.1
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 128.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "disk"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31841,
+                                    "end": 31841
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "staging.refresh-alerts",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31841
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "launched_tasks": [
+            {
+                "task_id": {
+                    "value": "production.firestar-kafka-service.c63eaf97-fe91-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-kafka-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.c63eaf97-fe91-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "gyTRqY1mTTWK4gv7+EnPXw==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.c63eaf97-fe91-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544676283.8316,
+                        "container_status": {
+                            "executor_pid": 3230,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    }
+                ],
+                "status_update_state": "TASK_RUNNING",
+                "status_update_uuid": "gyTRqY1mTTWK4gv7+EnPXw==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "6020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_RUNNING",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31635,
+                                    "end": 31635
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-kafka-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31635
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.firestar-kafka-service.f3aa7e93-fe91-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-kafka-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.f3aa7e93-fe91-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "yNhYbDHaRWi9BLdw1Zn0xQ==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.f3aa7e93-fe91-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544676359.80573,
+                        "container_status": {
+                            "executor_pid": 4229,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    }
+                ],
+                "status_update_state": "TASK_RUNNING",
+                "status_update_uuid": "yNhYbDHaRWi9BLdw1Zn0xQ==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "6020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_RUNNING",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31830,
+                                    "end": 31830
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-kafka-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31830
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.tor.ca.d36e6a34-fe99-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.tor.ca",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.tor.ca.d36e6a34-fe99-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "GDUFakanTySv1pkuAibOhw==",
+                        "task_id": {
+                            "value": "production.tor.ca.d36e6a34-fe99-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544679742.09716,
+                        "container_status": {
+                            "executor_pid": 24242,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    }
+                ],
+                "status_update_state": "TASK_RUNNING",
+                "status_update_uuid": "GDUFakanTySv1pkuAibOhw==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "vasanth",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.6",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "\nbackend production.tor.ca\n balance leastconn\n mode tcp\n",
+                            "key": "HAPROXY_0_BACKEND_HEAD"
+                        },
+                        {
+                            "value": "#sites-tools",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "0.7",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "\nfrontend production.tor.ca\n bind *:11022\n mode tcp\n",
+                            "key": "HAPROXY_0_FRONTEND_HEAD"
+                        },
+                        {
+                            "value": " use_backend production.tor.ca\n",
+                            "key": "HAPROXY_0_FRONTEND_BACKEND_GLUE"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_RUNNING",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 0.1
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 64.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31759,
+                                    "end": 31760
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.tor.ca",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31759
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31760
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.firestar-kafka-service.cf359ba5-fe91-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-kafka-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.cf359ba5-fe91-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "bIFwjgb7Twe/7mfmMXfVqA==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.cf359ba5-fe91-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544676298.63853,
+                        "container_status": {
+                            "executor_pid": 3637,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    }
+                ],
+                "status_update_state": "TASK_RUNNING",
+                "status_update_uuid": "bIFwjgb7Twe/7mfmMXfVqA==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "6020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_RUNNING",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31375,
+                                    "end": 31375
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-kafka-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31375
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.firestar-kafka-service.d8c60893-fe91-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-kafka-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.d8c60893-fe91-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "7Nv/cSOsTbaIFmXPV++NvA==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.d8c60893-fe91-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544676314.66775,
+                        "container_status": {
+                            "executor_pid": 3815,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    }
+                ],
+                "status_update_state": "TASK_RUNNING",
+                "status_update_uuid": "7Nv/cSOsTbaIFmXPV++NvA==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "6020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_RUNNING",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31924,
+                                    "end": 31924
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-kafka-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31924
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.firestar-service.3bc4fb52-fe94-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-service.3bc4fb52-fe94-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "9O3DahE5Q1GTI48f6uX0+A==",
+                        "task_id": {
+                            "value": "production.firestar-service.3bc4fb52-fe94-11e8-a0d5-12164c467f0e"
+                        },
+                        "timestamp": 1544677324.82134,
+                        "container_status": {
+                            "executor_pid": 430,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    }
+                ],
+                "status_update_state": "TASK_RUNNING",
+                "status_update_uuid": "9O3DahE5Q1GTI48f6uX0+A==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "http",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "false",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "  option httpchk GET {healthCheckPath} HTTP/1.1\\r\\nHost:\\ parser.prod.indix.tv\n  timeout check {healthCheckTimeoutSeconds}s\n",
+                            "key": "HAPROXY_0_BACKEND_HTTP_HEALTHCHECK_OPTIONS"
+                        },
+                        {
+                            "value": "parser.prod.indix.tv",
+                            "key": "router.hosts"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "9020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        },
+                        {
+                            "value": "parser.prod.indix.tv,parser.prod.indix.tv:80",
+                            "key": "HAPROXY_0_VHOST"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_RUNNING",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 0.5
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 512.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31730,
+                                    "end": 31730
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31730
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.firestar-kafka-service.c640d282-fe91-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-kafka-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.c640d282-fe91-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "a4UhvPEzTT2LFEekM62ghQ==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.c640d282-fe91-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544676283.7529,
+                        "container_status": {
+                            "executor_pid": 3228,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    }
+                ],
+                "status_update_state": "TASK_RUNNING",
+                "status_update_uuid": "a4UhvPEzTT2LFEekM62ghQ==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "6020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_RUNNING",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31718,
+                                    "end": 31718
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-kafka-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31718
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.tor.us.d36f5495-fe99-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.tor.us",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.tor.us.d36f5495-fe99-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "inYNCvpaRFKUOs8JEHkhsg==",
+                        "task_id": {
+                            "value": "production.tor.us.d36f5495-fe99-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544679742.14183,
+                        "container_status": {
+                            "executor_pid": 24239,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    }
+                ],
+                "status_update_state": "TASK_RUNNING",
+                "status_update_uuid": "inYNCvpaRFKUOs8JEHkhsg==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "vasanth",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.6",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "\nbackend production.tor.us\n balance leastconn\n mode tcp\n",
+                            "key": "HAPROXY_0_BACKEND_HEAD"
+                        },
+                        {
+                            "value": "#sites-tools",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "true",
+                            "key": "HAPROXY_ENABLED"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "0.7",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "\nfrontend production.tor.us\n bind *:11018\n mode tcp\n",
+                            "key": "HAPROXY_0_FRONTEND_HEAD"
+                        },
+                        {
+                            "value": " use_backend production.tor.us\n",
+                            "key": "HAPROXY_0_FRONTEND_BACKEND_GLUE"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_RUNNING",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 0.1
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 64.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31915,
+                                    "end": 31916
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.tor.us",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31915
+                            },
+                            {
+                                "protocol": "tcp",
+                                "number": 31916
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.messina.aa91fe2b-f8ba-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.messina",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.messina.aa91fe2b-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "CfJYylGqT2mOoRFD7p9l1g==",
+                        "task_id": {
+                            "value": "production.messina.aa91fe2b-f8ba-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544034199.84261,
+                        "container_status": {
+                            "executor_pid": 29891,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    }
+                ],
+                "status_update_state": "TASK_RUNNING",
+                "status_update_uuid": "CfJYylGqT2mOoRFD7p9l1g==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "vasanth",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "http",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "  option httpchk GET {healthCheckPath} HTTP/1.1\\r\\nHost:\\ messina.prod.indix.tv\n  timeout check {healthCheckTimeoutSeconds}s\n",
+                            "key": "HAPROXY_0_BACKEND_HTTP_HEALTHCHECK_OPTIONS"
+                        },
+                        {
+                            "value": "messina.prod.indix.tv",
+                            "key": "router.hosts"
+                        },
+                        {
+                            "value": "#al-messina",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "messina.prod.indix.tv",
+                            "key": "HAPROXY_0_VHOST"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_RUNNING",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 0.1
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 256.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 2048.0
+                        },
+                        "role": "*",
+                        "name": "disk"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31947,
+                                    "end": 31947
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.messina",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31947
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.firestar-kafka-service.ebe4e694-fe91-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-kafka-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.ebe4e694-fe91-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "T0sXi/NMSfuh4P4eemFTSQ==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.ebe4e694-fe91-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544676346.77993,
+                        "container_status": {
+                            "executor_pid": 4111,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    }
+                ],
+                "status_update_state": "TASK_RUNNING",
+                "status_update_uuid": "T0sXi/NMSfuh4P4eemFTSQ==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "6020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_RUNNING",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31004,
+                                    "end": 31004
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-kafka-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31004
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "task_id": {
+                    "value": "production.firestar-kafka-service.e2ee48ae-fe91-11e8-a0d5-12164c467f0e"
+                },
+                "name": "production.firestar-kafka-service",
+                "statuses": [
+                    {
+                        "executor_id": {
+                            "value": "production.firestar-kafka-service.e2ee48ae-fe91-11e8-a0d5-12164c467f0e"
+                        },
+                        "uuid": "DwPlKcFZSo2hoBv2BOEK7g==",
+                        "task_id": {
+                            "value": "production.firestar-kafka-service.e2ee48ae-fe91-11e8-a0d5-12164c467f0e"
+                        },
+                        "healthy": true,
+                        "timestamp": 1544676331.72578,
+                        "container_status": {
+                            "executor_pid": 3992,
+                            "network_infos": [
+                                {
+                                    "ip_addresses": [
+                                        {
+                                            "ip_address": "10.181.9.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "source": "SOURCE_EXECUTOR",
+                        "state": "TASK_RUNNING",
+                        "agent_id": {
+                            "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                        }
+                    }
+                ],
+                "status_update_state": "TASK_RUNNING",
+                "status_update_uuid": "DwPlKcFZSo2hoBv2BOEK7g==",
+                "labels": {
+                    "labels": [
+                        {
+                            "value": "gp,varaha",
+                            "key": "alerts.slack.owners"
+                        },
+                        {
+                            "value": "tcp",
+                            "key": "HAPROXY_0_MODE"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-instances.warn.threshold"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-healthy.critical.threshold"
+                        },
+                        {
+                            "value": "external",
+                            "key": "HAPROXY_GROUP"
+                        },
+                        {
+                            "value": "true",
+                            "key": "logs.enabled"
+                        },
+                        {
+                            "value": "#data_ingestion",
+                            "key": "alerts.slack.channel"
+                        },
+                        {
+                            "value": "6020",
+                            "key": "HAPROXY_0_PORT"
+                        },
+                        {
+                            "value": "true",
+                            "key": "alerts.enabled"
+                        },
+                        {
+                            "value": "*/resolved/*;*/critical/*",
+                            "key": "alerts.routes"
+                        },
+                        {
+                            "value": "0.4",
+                            "key": "alerts.min-healthy.warn.threshold"
+                        },
+                        {
+                            "value": "min-healthy",
+                            "key": "alerts.checks.subscribe"
+                        },
+                        {
+                            "value": "0.2",
+                            "key": "alerts.min-instances.critical.threshold"
+                        }
+                    ]
+                },
+                "framework_id": {
+                    "value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+                },
+                "state": "TASK_RUNNING",
+                "agent_id": {
+                    "value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S399"
+                },
+                "resources": [
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1.0
+                        },
+                        "role": "*",
+                        "name": "cpus"
+                    },
+                    {
+                        "type": "SCALAR",
+                        "scalar": {
+                            "value": 1024.0
+                        },
+                        "role": "*",
+                        "name": "mem"
+                    },
+                    {
+                        "ranges": {
+                            "range": [
+                                {
+                                    "begin": 31394,
+                                    "end": 31394
+                                }
+                            ]
+                        },
+                        "type": "RANGES",
+                        "role": "*",
+                        "name": "ports"
+                    }
+                ],
+                "discovery": {
+                    "name": "production.firestar-kafka-service",
+                    "visibility": "FRAMEWORK",
+                    "ports": {
+                        "ports": [
+                            {
+                                "protocol": "tcp",
+                                "number": 31394
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "type": "GET_TASKS"
+}
