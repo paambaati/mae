@@ -1,4 +1,4 @@
-# 🔥 mae [![](https://img.shields.io/pypi/v/mae.svg)](https://pypi.org/project/mae/) [![](https://travis-ci.org/paambaati/mae.svg?branch=master)](https://travis-ci.org/paambaati/mae)
+# 🔥 mae [![](https://img.shields.io/pypi/v/mae.svg)](https://pypi.org/project/mae) [![](https://img.shields.io/pypi/pyversions/mae.svg)](https://pypi.org/project/mae) [![](https://travis-ci.org/paambaati/mae.svg?branch=master)](https://travis-ci.org/paambaati/mae)
 
 `mae` collects Prometheus metrics from your Mesos apps.
 
