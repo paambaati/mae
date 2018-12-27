@@ -93,4 +93,4 @@ class TestMesosAppExporter(unittest.TestCase):
         self.assertEqual(response, self.__readFile('fixtures/app_metrics_2_combined.txt'))
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(verbosity=2)
