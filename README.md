@@ -3,7 +3,7 @@
 
 ## Requirements
 
-`mae` requires Python (> 2.7).
+`mae` requires Python (>= 2.7).
 
 ## Installation
 
