@@ -19,6 +19,7 @@ APP_PORT = 8888
 def main():
     """
     Runs a Prometheus exporter as a HTTP server.
+    The default loging level can be overridden with the `LOG_LEVEL` environment variable.
     """
     try:
         parser = argparse.ArgumentParser()

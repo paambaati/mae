@@ -2,11 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Mesos App Exporter runs on each Mesos slave, and exposes metrics from all running executors.
-
-    python mae.py <app_port> <slave_address> <slave_port>
-
-The default loging level can be overridden with the `LOG_LEVEL` environment variable.
+Mesos App Exporter collects Prometheus metrics from all running executors on a Mesos slave.
 """
 
 from . import __name__, __version__
