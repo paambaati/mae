@@ -28,7 +28,7 @@ def main():
         parser.add_argument('slave_port', help='Mesos slave port', default=MESOS_SLAVE_PORT, type=int)
         args = parser.parse_args()
         server = HTTPServer(('', args.app_port), MetricsServer(args.slave_address, args.slave_port))
-        logging.info('Started Mesos app exporter for Prometheus on port {}'.format(args.app_port))
+        logging.info('Started Mesos app exporter for Prometheus on port {app_port} and listening to Mesos slave at {slave_address}:{slave_port}'.format(**vars(args)))
         server.serve_forever()
 
     except KeyboardInterrupt:
