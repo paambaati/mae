@@ -7,7 +7,7 @@ from os import environ
 from six.moves.BaseHTTPServer import HTTPServer
 from sys import stdout
 
-from mae import MetricsServer
+from .mae import MetricsServer
 
 logging.basicConfig(stream=stdout, level=environ.get('LOG_LEVEL', logging.INFO))
 
