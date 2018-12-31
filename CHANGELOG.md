@@ -2,6 +2,12 @@
 
 `mae` follows [Semantic Versioning](http://semver.org/).
 
+## [1.0.5] - 2018-12-31
+### Added
+- Type hints 🎉
+### Fixed
+- 🐞 Python3 import errors - via 39b4a7d.
+
 ## [1.0.4] - 2018-12-27
 ### Added
 - Included documentation about Mesos/Marathon task labels.
