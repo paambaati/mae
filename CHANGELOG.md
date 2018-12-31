@@ -2,6 +2,10 @@
 
 `mae` follows [Semantic Versioning](http://semver.org/).
 
+## [1.0.6] - 2018-12-31
+### Added
+- Tests for CLI.
+
 ## [1.0.5] - 2018-12-31
 ### Added
 - Type hints 🎉
