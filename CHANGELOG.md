@@ -2,6 +2,10 @@
 
 `mae` follows [Semantic Versioning](http://semver.org/).
 
+## [1.0.8] - 2019-02-28
+### Fixed
+- 🐞 Return 200 for when no scrape targets are found, so Prometheus can pick it up.
+
 ## [1.0.7] - 2019-02-28
 ### Fixed
 - 🐞 Fixed a bug ([#1](https://github.com/paambaati/mae/issues/1)) where an app without labels can cause an empty response.
