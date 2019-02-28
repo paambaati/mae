@@ -119,9 +119,8 @@ def MetricsServer(mesos_slave_address, mesos_slave_port):
 
         def do_GET(self):
             app_metrics = self.__mesos_app_exporter.collect()
-            response_body = app_metrics or 'No targets available to scrape!'
-            response_code = 200 if app_metrics else 404
-            self.send_response(response_code)
+            response_body = app_metrics or ''
+            self.send_response(200)
             self.send_header('Content-Type', 'text/plain; charset=utf-8')
             self.end_headers()
             self.wfile.write(response_body.encode())
