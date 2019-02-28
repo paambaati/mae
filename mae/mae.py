@@ -22,6 +22,7 @@ class MesosAppExporter:
     MesosAppExporter collects metrics from all running Mesos executors.
     """
     def __init__(self, slave_address='localhost', slave_port=5051):
+        # type: (str, int) -> None
         """
         Construct a new 'MesosAppExporter' object.
 
@@ -34,6 +35,7 @@ class MesosAppExporter:
         logging.info('Initialized Mesos App Metrics collector at {}'.format(self.__mesos_slave_state))
 
     def get_app_metrics_endpoints(self, slave_state=dict()):
+        # type: (Dict) -> List
         """
         Derives every Mesos app's metrics endpoints from slave state data.
 
@@ -59,6 +61,7 @@ class MesosAppExporter:
         return app_metrics_endpoints
 
     def get_metrics(self, endpoints=list()):
+        # type: (List) -> str
         """
         Queries each Mesos app's metrics endpoint and returns the combined metrics.
 
@@ -73,6 +76,7 @@ class MesosAppExporter:
         return combined_metrics.strip('\n')
 
     def get_mesos_slave_state(self):
+        # type: (None) -> str
         """
         Queries Mesos slave daemon for its state.
         """
@@ -82,6 +86,7 @@ class MesosAppExporter:
         return task_data
 
     def collect(self):
+        # type: (None) -> str
         """
         Collects each app's metrics and returns the combined metrics.
         """
@@ -92,6 +97,7 @@ class MesosAppExporter:
 
 
 def MetricsServer(mesos_slave_address, mesos_slave_port):
+    # type: (str, int) -> BaseHTTPRequestHandler
     """
     Metrics HTTP server that servers app metrics for Prometheus to scrape.
 

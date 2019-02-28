@@ -25,6 +25,7 @@ positional arguments:
   slave_address  Mesos slave address
   slave_port     Mesos slave port
 ```
+The logging level of the CLI can also be configured with the `LOG_LEVEL` environment variable. Read the [`logging` library's levels](https://docs.python.org/2/library/logging.html#logging-levels) for all the available levels.
 
 ## Task Labels
 
@@ -51,6 +52,7 @@ Once `mae` is up and running, it will start collecting metrics from all apps tha
     [Service]
     Type=simple
     Restart=on-failure
+    Environment="LOG_LEVEL=INFO"
     ExecStart=/usr/local/bin/mae 8888 localhost 5051 # Assuming the Mesos slave process is running on port 5051
 
     [Install]
