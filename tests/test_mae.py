@@ -71,6 +71,14 @@ class TestMesosAppExporter(unittest.TestCase):
         endpoints = self.exporter.get_app_metrics_endpoints(task_data)
         self.assertEqual(len(endpoints), 0)
 
+    def test_mae_get_endpoint_4_no_labels(self):
+        """
+        Test if task data without any labels do not throw any errors.
+        """
+        task_data = self.__readJsonFile('fixtures/task_data_4.json')
+        endpoints = self.exporter.get_app_metrics_endpoints(task_data)
+        self.assertEqual(len(endpoints), 0)
+
     @patch('requests.get')
     def test_get_metrics_1_single_app(self, mock_request):
         """

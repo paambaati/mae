@@ -2,6 +2,10 @@
 
 `mae` follows [Semantic Versioning](http://semver.org/).
 
+## [1.0.7] - 2019-02-28
+### Fixed
+- 🐞 Fixed a bug ([#1](https://github.com/paambaati/mae/issues/1)) where an app without labels can cause an empty response.
+
 ## [1.0.6] - 2018-12-31
 ### Added
 - Tests for CLI.
