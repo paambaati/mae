@@ -2,6 +2,10 @@
 
 `mae` follows [Semantic Versioning](http://semver.org/).
 
+## [1.0.5] - 2019-02-28
+### Fixed
+- 🐞 Fixed a bug where an app without labels can cause an empty response.
+
 ## [1.0.4] - 2018-12-27
 ### Added
 - Included documentation about Mesos/Marathon task labels.

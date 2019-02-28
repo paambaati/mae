@@ -43,7 +43,7 @@ class MesosAppExporter:
 
         app_metrics_endpoints = list()
         for index, task in enumerate(tasks):
-            labels = task.get('labels').get('labels')
+            labels = task.get('labels', {}).get('labels', {})
             label_dict = dict()
             for label in labels:
                 label_dict.update({label.get('key'): label.get('value')})

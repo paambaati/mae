@@ -1,0 +1,99 @@
+{
+	"get_tasks": {
+		"launched_tasks": [
+			{
+				"task_id": {
+					"value": "production.labelless-app.36dec447-0567-11e9-a0d5-12164c467f0e"
+				},
+				"name": "production.labelless-app",
+				"statuses": [
+					{
+						"executor_id": {
+							"value": "production.labelless-app.36dec447-0567-11e9-a0d5-12164c467f0e"
+						},
+						"uuid": "nPcAC+mhSnKooebv+6SnfA==",
+						"task_id": {
+							"value": "production.labelless-app.36dec447-0567-11e9-a0d5-12164c467f0e"
+						},
+						"healthy": true,
+						"timestamp": 1545427722.56431,
+						"container_status": {
+							"executor_pid": 7277,
+							"network_infos": [
+								{
+									"ip_addresses": [
+										{
+											"ip_address": "10.181.9.9"
+										}
+									]
+								}
+							]
+						},
+						"source": "SOURCE_EXECUTOR",
+						"state": "TASK_RUNNING",
+						"agent_id": {
+							"value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S461"
+						}
+					}
+				],
+				"status_update_state": "TASK_RUNNING",
+				"status_update_uuid": "nPcAC+mhSnKooebv+6SnfA==",
+				"framework_id": {
+					"value": "545b613d-52cc-4f5f-922c-4dacc444e544-0000"
+				},
+				"state": "TASK_RUNNING",
+				"agent_id": {
+					"value": "d59f7ce8-7b0a-48e1-a71d-81ddad9cfa8c-S461"
+				},
+				"resources": [
+					{
+						"type": "SCALAR",
+						"scalar": {
+							"value": 2.0
+						},
+						"role": "*",
+						"name": "cpus"
+					},
+					{
+						"type": "SCALAR",
+						"scalar": {
+							"value": 14000.0
+						},
+						"role": "*",
+						"name": "mem"
+					},
+					{
+						"ranges": {
+							"range": [
+								{
+									"begin": 31064,
+									"end": 31065
+								}
+							]
+						},
+						"type": "RANGES",
+						"role": "*",
+						"name": "ports"
+					}
+				],
+				"discovery": {
+					"name": "production.labelless-app",
+					"visibility": "FRAMEWORK",
+					"ports": {
+						"ports": [
+							{
+								"protocol": "tcp",
+								"number": 31064
+							},
+							{
+								"protocol": "tcp",
+								"number": 31065
+							}
+						]
+					}
+				}
+			}
+		]
+	},
+	"type": "GET_TASKS"
+}
