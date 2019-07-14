@@ -6,7 +6,7 @@ See [Deployment Strategy](#deployment-strategy) to learn how to set up `mae` on 
 
 ## Requirements
 
-`mae` requires Python (>= 2.7), and supports Python 3.
+`mae` requires Python (>= 2.7), and supports Python 3 (>= 3.5).
 
 ## Installation
 
