@@ -2,6 +2,10 @@
 
 `mae` follows [Semantic Versioning](http://semver.org/).
 
+## [1.0.9] - 2019-07-14
+### Changed
+- Bump `requests` and `mock` dependencies to latest versions. Thanks @dependabot!
+
 ## [1.0.8] - 2019-02-28
 ### Fixed
 - 🐞 Return 200 for when no scrape targets are found, so Prometheus can pick it up.
