@@ -2,6 +2,10 @@
 
 `mae` follows [Semantic Versioning](http://semver.org/).
 
+## [1.0.11] - 2019-07-15
+### Fixed
+- 🐞 Fixed code coverage execution on CI/CI builds.
+
 ## [1.0.10] - 2019-07-15
 ### Added
 - Add code coverage.
