@@ -37,6 +37,7 @@ jobs:
         provider: pypi
         distributions: "sdist bdist_egg bdist_wheel"
         skip_cleanup: true
+        skip_existing: true
         user: paambaati
         password:
           secure: "vcErzsQgMO462Uhdiv6Sl3vMUgItPNFgZo4pH4jg4UNDzqGfct2co63jeZOMs5qjxhdhGV45AcK+vWbsqynjOqxQijEf5ej6+QIICc/Y+q8zH18ladXgnb89mIPzaXk6qRgXQb3rHmsqopQirWZqXUPHQMsltAQUlEYQUrlYvuzhUVrJ444LMvCylJOgeGLMmsZF7Whq7yQE1Kr0mNBCSczijeGBuOYtkukMFe9Cd2T0EiM/wTRv5WK0gvcngP1yBfwVWQGZiLZGYfSbW3TctjQZmzD2NJckFnc18QIoZKmm1F1PAhbhA14u6bfSbyJmVUuyaLMuPl8iO0UUoz1QOT4DcK6ea/5BdMM8h++OXdqJMK1ZaI9tAit5Pms9IP1pxxtyvGlE0JeRM+UgnaNdLTTEpY6fIxFuR5sGMj+d720yWIED3EuStLJHLow0DpYKRFM0h9lbT3cmEYg/wzEOs2eZuURCtPM+bLQbbWE80VkddqGExAxMAq6Cm2ezG4ln1KaWPcyQbLiqX489G51I1RHVw7BZENDNhNdFI6xuOhVX47ms3buWK9MCfCUbcCMmNYZUAyKAEWKPOZ3TTN5l/OTU4+Gr5Nnz/GMHtEKVmcxfsTrnyKqQRym0+pC4JEui9xX/uKwkjwkH/QwXPQDDgoHc0arBqSLtsd8EtEajR14="
