@@ -7,9 +7,20 @@ python:
 - '3.5'
 - '2.7'
 cache: pip
+env:
+  global:
+    - CC_TEST_REPORTER_ID=fd2fa0062111734e11f6e162e976868bf5a702dac56be26da67d8929b5c9c2e0
+before_install:
+  - sudo apt-get install -y python-dev gcc
+  - sudo apt-get install -y python3-dev gcc
 install:
-- pip install -r requirements.txt
-script: python -m unittest discover -s tests
+  - pip install coverage
+  - pip install -r requirements.txt
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+script: coverage run -m unittest discover -s tests
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
 stages:
   - test
   - publish
