@@ -2,6 +2,10 @@
 
 `mae` follows [Semantic Versioning](http://semver.org/).
 
+## [1.0.10] - 2019-07-15
+### Added
+- Add code coverage.
+
 ## [1.0.9] - 2019-07-14
 ### Changed
 - Bump `requests` and `mock` dependencies to latest versions. Thanks @dependabot!
